@@ -1,0 +1,15 @@
+{
+  "name": "atlas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+"test": "node --experimental-strip-types --test test/world.test.ts test/beacon-state.test.ts test/replay-sequence.test.ts"
+  },
+  "engines": {
+    "node": ">=22.14.0"
+  }
+}
